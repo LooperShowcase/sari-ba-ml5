@@ -8,7 +8,7 @@ class Player {
   }
   show() {
     image(playerImg, this.x - 40, this.y, this.size + 40, this.size);
-  }
+  } // comment
   jump() {
     if (this.y === height - this.size) {
       this.velocityY = -27;
